@@ -20,5 +20,8 @@ public class Employee {
 	
 	@Column(name = "name")
 	private String name;
+	
+	@Column(name ="phone_number")
+	private Long phoneNumber;
 
 }
